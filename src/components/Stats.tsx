@@ -2,7 +2,7 @@ import { Card, CardContent } from "@/components/ui/card";
 
 const stats = [
   { value: "+10", label: "Anos de experiência", suffix: "" },
-  { value: "3", label: "Estados atendidos", suffix: "" },
+  { value: "Brasil", label: "Cobertura nacional", suffix: "" },
   { value: "100%", label: "Compromisso com prazos", suffix: "" },
   { value: "24h", label: "Atendimento disponível", suffix: "" },
 ];

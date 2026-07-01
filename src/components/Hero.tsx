@@ -8,7 +8,7 @@ export function Hero() {
       <div className="absolute inset-0">
         <img
           src={heroImage}
-          alt="Caminhão da L-Prosp em estrada do Sul do Brasil"
+          alt="Caminhão da L-Prosp em estrada brasileira"
           className="h-full w-full object-cover"
           width={1920}
           height={1080}
@@ -21,14 +21,14 @@ export function Hero() {
         <div className="max-w-2xl text-white">
           <div className="mb-6 inline-flex items-center gap-2 rounded-full bg-brand-red/20 px-4 py-2 text-sm font-medium text-white backdrop-blur-sm">
             <span className="h-2 w-2 rounded-full bg-brand-red" />
-            Transporte rodoviário no Sul do Brasil
+            Transporte rodoviário para todo o Brasil
           </div>
           <h1 className="text-4xl font-bold leading-[1.1] tracking-tight md:text-5xl lg:text-6xl">
             Sua carga no lugar certo,{" "}
             <span className="text-brand-blue">no tempo certo</span>
           </h1>
           <p className="mt-6 text-lg text-white/80 md:text-xl">
-            A L-Prosp leva segurança e pontualidade para o transporte de cargas em Santa Catarina, Rio Grande do Sul e Paraná. Especialistas em logística agroindustrial e fretes rodoviários.
+            A L-Prosp tem sede em Fraiburgo, SC, e leva segurança e pontualidade para o transporte de cargas em todo o Brasil — de São Paulo e Rio de Janeiro a Belém, entre outros destinos. Especialistas em logística agroindustrial e fretes rodoviários.
           </p>
           <div className="mt-8 flex flex-wrap gap-4">
             <Button
@@ -68,7 +68,7 @@ export function Hero() {
             </div>
             <div className="flex items-center gap-3 rounded-lg bg-white/10 p-3 backdrop-blur-sm">
               <ArrowRight className="h-5 w-5 text-brand-red" />
-              <span className="text-sm font-medium">Cobertura SC/RS/PR</span>
+              <span className="text-sm font-medium">Cobertura nacional</span>
             </div>
           </div>
         </div>

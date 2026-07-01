@@ -3,8 +3,8 @@ export function LocalBusinessSchema() {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
     name: "L-Prosp Comércio e Transporte",
-    description: "Transporte rodoviário e logística agroindustrial no Sul do Brasil. Fretes para SC, RS e PR.",
-    url: "https://id-preview--ea8d8547-ecce-4591-97c4-07ebffb13aa7.lovable.app",
+    description: "Transporte rodoviário e logística agroindustrial com sede em Fraiburgo, SC, atendendo todo o Brasil.",
+    url: "https://sulogistica-conecta.lovable.app",
     telephone: "+5549932463681",
     address: {
       "@type": "PostalAddress",
@@ -29,13 +29,8 @@ export function LocalBusinessSchema() {
     ],
     priceRange: "R$",
     areaServed: {
-      "@type": "GeoCircle",
-      geoMidpoint: {
-        "@type": "GeoCoordinates",
-        latitude: "-27.028",
-        longitude: "-50.92",
-      },
-      geoRadius: "500 km",
+      "@type": "Country",
+      name: "Brasil",
     },
   };
 

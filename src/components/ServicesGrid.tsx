@@ -14,13 +14,13 @@ const services = [
   {
     icon: Truck,
     title: "Fretes Rodoviários",
-    description: "Transporte de cargas gerais e dedicadas com cobertura completa em SC, RS e PR. Rastreamento e compromisso com prazos.",
+    description: "Transporte de cargas gerais e dedicadas com cobertura em todo o Brasil, partindo de Fraiburgo, SC. Rastreamento e compromisso com prazos.",
     color: "bg-brand-blue/10 text-brand-blue",
   },
   {
     icon: Sprout,
     title: "Logística Agroindustrial",
-    description: "Soluções especializadas para grãos, insumos, produtos agrícolas e industrializados da região Sul do Brasil.",
+    description: "Soluções especializadas para grãos, insumos, produtos agrícolas e industrializados, conectando o agronegócio catarinense ao restante do Brasil.",
     color: "bg-brand-green/10 text-brand-green",
   },
   {
@@ -32,7 +32,7 @@ const services = [
   {
     icon: MapPin,
     title: "Distribuição Regional",
-    description: "Rede de distribuição regional que conecta indústrias, cooperativas e centros comerciais do Sul do país.",
+    description: "Rede de distribuição que conecta indústrias, cooperativas e centros comerciais em todo o Brasil, partindo de Santa Catarina.",
     color: "bg-brand-navy/10 text-brand-navy",
   },
   {
@@ -61,7 +61,7 @@ export function ServicesGrid() {
             Transporte e logística sob medida para o seu negócio
           </h2>
           <p className="mt-4 text-muted-foreground">
-            Da lavoura à indústria, a L-Prosp conecta pessoas, produtos e oportunidades no Sul do Brasil.
+            Da lavoura à indústria, a L-Prosp conecta pessoas, produtos e oportunidades em todo o Brasil.
           </p>
         </div>
         <div className="mt-14 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">

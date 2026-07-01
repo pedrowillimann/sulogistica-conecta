@@ -1,7 +1,7 @@
 import { CheckCircle2 } from "lucide-react";
 
 const differentials = [
-  "Conhecimento profundo das rodovias do Sul do Brasil",
+  "Conhecimento profundo das rotas rodoviárias em todo o Brasil",
   "Atendimento personalizado para produtores rurais e indústrias",
   "Compromisso com segurança, prazo e transparência",
   "Frota moderna e equipe experiente",
@@ -21,7 +21,7 @@ export function About() {
               L-Prosp: soluções que prosperam
             </h2>
             <p className="mt-6 text-lg text-muted-foreground">
-              A L-Prosp Comércio e Transporte nasceu para conectar o campo à cidade, a indústria ao consumidor e a Santa Catarina ao restante do Sul do Brasil. Com sede em Fraiburgo, atuamos com transporte rodoviário e logística agroindustrial, sempre com foco em segurança, pontualidade e relacionamento de confiança.
+              A L-Prosp Comércio e Transporte nasceu para conectar o campo à cidade, a indústria ao consumidor e Santa Catarina ao restante do Brasil. Com sede em Fraiburgo, atuamos com transporte rodoviário e logística agroindustrial para todo o território nacional — de São Paulo e Rio de Janeiro a Belém, entre outros destinos — sempre com foco em segurança, pontualidade e relacionamento de confiança.
             </p>
             <p className="mt-4 text-muted-foreground">
               Nossa missão é fazer sua carga chegar ao destino certo, no tempo certo, com o cuidado que o seu negócio merece.
@@ -42,7 +42,7 @@ export function About() {
                 <div className="rounded-xl bg-brand-blue/10 p-6">
                   <h3 className="text-xl font-bold text-foreground">Nossa visão</h3>
                   <p className="mt-2 text-muted-foreground">
-                    Ser referência em transporte rodoviário no Sul do Brasil, reconhecida pela confiabilidade, agilidade e proximidade com o cliente.
+                    Ser referência em transporte rodoviário no Brasil, reconhecida pela confiabilidade, agilidade e proximidade com o cliente.
                   </p>
                 </div>
                 <div className="rounded-xl bg-brand-red/10 p-6">

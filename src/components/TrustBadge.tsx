@@ -32,7 +32,7 @@ export function TrustBadge() {
             </div>
             <div className="flex items-center gap-2 text-sm text-muted-foreground">
               <CheckCircle2 className="h-4 w-4 text-brand-green" />
-              <span>Foco no Sul do Brasil</span>
+              <span>Cobertura em todo o Brasil</span>
             </div>
           </div>
         </div>

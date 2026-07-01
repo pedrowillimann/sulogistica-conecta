@@ -23,7 +23,7 @@ export function Footer() {
               height={56}
             />
             <p className="text-sm text-white/70">
-              Soluções que prosperam. Transporte rodoviário e logística agroindustrial no Sul do Brasil.
+              Soluções que prosperam. Transporte rodoviário e logística agroindustrial para todo o Brasil.
             </p>
           </div>
           <div>
