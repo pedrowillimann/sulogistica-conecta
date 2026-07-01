@@ -12,10 +12,10 @@ export const Route = createFileRoute("/sobre")({
   component: AboutPage,
   head: () => ({
     meta: [
-      { title: "Sobre a L-Prosp | Transporte Rodoviário no Sul do Brasil" },
-      { name: "description", content: "Conheça a L-Prosp Comércio e Transporte. Empresa de transporte rodoviário em Fraiburgo, SC, atuando em logística agroindustrial no Sul do Brasil." },
-      { property: "og:title", content: "Sobre a L-Prosp | Transporte Rodoviário no Sul do Brasil" },
-      { property: "og:description", content: "Empresa de transporte rodoviário em Fraiburgo, SC. Logística agroindustrial no Sul do Brasil." },
+      { title: "Sobre a L-Prosp | Transporte Rodoviário para Todo o Brasil" },
+      { name: "description", content: "Conheça a L-Prosp Comércio e Transporte. Empresa de transporte rodoviário sediada em Fraiburgo, SC, atuando em logística agroindustrial para todo o Brasil." },
+      { property: "og:title", content: "Sobre a L-Prosp | Transporte Rodoviário para Todo o Brasil" },
+      { property: "og:description", content: "Empresa de transporte rodoviário sediada em Fraiburgo, SC. Logística agroindustrial para todo o Brasil." },
     ],
   }),
 });
@@ -29,7 +29,7 @@ function AboutPage() {
           <div className="absolute inset-0">
             <img
               src={heroImage}
-              alt="Estrada do Sul do Brasil"
+              alt="Estrada brasileira"
               className="h-full w-full object-cover"
               width={1920}
               height={1080}
@@ -47,7 +47,7 @@ function AboutPage() {
                 Uma empresa que nasceu para prosperar
               </h1>
               <p className="mt-6 text-lg text-white/80">
-                A L-Prosp Comércio e Transporte é uma empresa de transporte rodoviário sediada em Fraiburgo, SC, com atuação focada na logística do Sul do Brasil.
+                A L-Prosp Comércio e Transporte é uma empresa de transporte rodoviário sediada em Fraiburgo, SC, com atuação em logística para todo o Brasil.
               </p>
             </div>
           </div>
@@ -61,7 +61,7 @@ function AboutPage() {
                 <MapPin className="h-10 w-10 text-brand-red" />
                 <h2 className="mt-4 text-2xl font-bold">Localização estratégica</h2>
                 <p className="mt-4 text-muted-foreground">
-                  Estamos localizados na SC-452, KM 39, no bairro Liberata, em Fraiburgo, SC. Nossa posição privilegiada permite atender com agilidade Santa Catarina, Rio Grande do Sul e Paraná.
+                  Estamos localizados na SC-452, KM 39, no bairro Liberata, em Fraiburgo, SC. A partir daqui, atendemos com agilidade todo o Brasil — de São Paulo e Rio de Janeiro a Belém, entre outros destinos.
                 </p>
               </div>
               <div className="rounded-2xl bg-primary p-8 text-primary-foreground md:p-10">

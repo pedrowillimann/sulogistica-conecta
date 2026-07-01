@@ -12,9 +12,9 @@ export const Route = createFileRoute("/servicos")({
   head: () => ({
     meta: [
       { title: "Serviços de Transporte e Logística | L-Prosp" },
-      { name: "description", content: "Conheça os serviços da L-Prosp: fretes rodoviários, logística agroindustrial, cargas fracionadas e distribuição regional no Sul do Brasil." },
+      { name: "description", content: "Conheça os serviços da L-Prosp: fretes rodoviários, logística agroindustrial, cargas fracionadas e distribuição para todo o Brasil." },
       { property: "og:title", content: "Serviços de Transporte e Logística | L-Prosp" },
-      { property: "og:description", content: "Fretes rodoviários, logística agroindustrial e distribuição regional no Sul do Brasil." },
+      { property: "og:description", content: "Fretes rodoviários, logística agroindustrial e distribuição para todo o Brasil." },
     ],
   }),
 });
@@ -28,7 +28,7 @@ function ServicesPage() {
           <div className="absolute inset-0">
             <img
               src={heroImage}
-              alt="Caminhão em estrada do Sul do Brasil"
+              alt="Caminhão em estrada brasileira"
               className="h-full w-full object-cover"
               width={1920}
               height={1080}
@@ -46,7 +46,7 @@ function ServicesPage() {
                 Soluções completas em transporte
               </h1>
               <p className="mt-6 text-lg text-white/80">
-                Da coleta à entrega, oferecemos serviços de transporte adaptados às necessidades do agronegócio, indústria e comércio do Sul do Brasil.
+                Da coleta à entrega, oferecemos serviços de transporte adaptados às necessidades do agronegócio, indústria e comércio em todo o Brasil.
               </p>
               <div className="mt-8">
                 <Button
