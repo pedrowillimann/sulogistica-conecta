@@ -14,9 +14,17 @@ export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
       { title: "L-Prosp Comércio e Transporte | Transporte Rodoviário para Todo o Brasil" },
-      { name: "description", content: "L-Prosp: transporte rodoviário e logística agroindustrial com sede em Fraiburgo, SC, atendendo todo o Brasil. Orçamento rápido pelo WhatsApp (49) 93246-3681." },
+      {
+        name: "description",
+        content:
+          "L-Prosp: transporte rodoviário e logística agroindustrial com sede em Fraiburgo, SC, atendendo todo o Brasil. Orçamento rápido pelo WhatsApp (49) 93246-3681.",
+      },
       { property: "og:title", content: "L-Prosp Comércio e Transporte" },
-      { property: "og:description", content: "Transporte rodoviário e logística agroindustrial com sede em Fraiburgo, SC, atendendo todo o Brasil." },
+      {
+        property: "og:description",
+        content:
+          "Transporte rodoviário e logística agroindustrial com sede em Fraiburgo, SC, atendendo todo o Brasil.",
+      },
     ],
   }),
 });

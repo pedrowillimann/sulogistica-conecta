@@ -12,9 +12,16 @@ export const Route = createFileRoute("/servicos")({
   head: () => ({
     meta: [
       { title: "Serviços de Transporte e Logística | L-Prosp" },
-      { name: "description", content: "Conheça os serviços da L-Prosp: fretes rodoviários, logística agroindustrial, cargas fracionadas e distribuição para todo o Brasil." },
+      {
+        name: "description",
+        content:
+          "Conheça os serviços da L-Prosp: fretes rodoviários, logística agroindustrial, cargas fracionadas e distribuição para todo o Brasil.",
+      },
       { property: "og:title", content: "Serviços de Transporte e Logística | L-Prosp" },
-      { property: "og:description", content: "Fretes rodoviários, logística agroindustrial e distribuição para todo o Brasil." },
+      {
+        property: "og:description",
+        content: "Fretes rodoviários, logística agroindustrial e distribuição para todo o Brasil.",
+      },
     ],
   }),
 });
@@ -46,14 +53,11 @@ function ServicesPage() {
                 Soluções completas em transporte
               </h1>
               <p className="mt-6 text-lg text-white/80">
-                Da coleta à entrega, oferecemos serviços de transporte adaptados às necessidades do agronegócio, indústria e comércio em todo o Brasil.
+                Da coleta à entrega, oferecemos serviços de transporte adaptados às necessidades do
+                agronegócio, indústria e comércio em todo o Brasil.
               </p>
               <div className="mt-8">
-                <Button
-                  size="lg"
-                  asChild
-                  className="bg-brand-red hover:bg-brand-red/90 text-white"
-                >
+                <Button size="lg" asChild className="bg-brand-red hover:bg-brand-red/90 text-white">
                   <a
                     href="https://wa.me/5549932463681?text=Ol%C3%A1%2C%20gostaria%20de%20um%20or%C3%A7amento%20de%20frete%20com%20a%20L-Prosp"
                     target="_blank"
