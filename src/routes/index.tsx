@@ -7,6 +7,7 @@ import { Stats } from "@/components/Stats";
 import { About } from "@/components/About";
 import { Contact } from "@/components/Contact";
 import { Footer } from "@/components/Footer";
+import { LocalBusinessSchema } from "@/components/LocalBusinessSchema";
 
 export const Route = createFileRoute("/")({
   component: Index,
