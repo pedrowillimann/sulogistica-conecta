@@ -3,7 +3,8 @@ export function LocalBusinessSchema() {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
     name: "L-Prosp Comércio e Transporte",
-    description: "Transporte rodoviário e logística agroindustrial com sede em Fraiburgo, SC, atendendo todo o Brasil.",
+    description:
+      "Transporte rodoviário e logística agroindustrial com sede em Fraiburgo, SC, atendendo todo o Brasil.",
     url: "https://sulogistica-conecta.lovable.app",
     telephone: "+5549932463681",
     address: {

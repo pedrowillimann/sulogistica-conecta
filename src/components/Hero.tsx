@@ -24,18 +24,15 @@ export function Hero() {
             Transporte rodoviário para todo o Brasil
           </div>
           <h1 className="text-4xl font-bold leading-[1.1] tracking-tight md:text-5xl lg:text-6xl">
-            Sua carga no lugar certo,{" "}
-            <span className="text-brand-blue">no tempo certo</span>
+            Sua carga no lugar certo, <span className="text-brand-blue">no tempo certo</span>
           </h1>
           <p className="mt-6 text-lg text-white/80 md:text-xl">
-            A L-Prosp tem sede em Fraiburgo, SC, e leva segurança e pontualidade para o transporte de cargas em todo o Brasil — de São Paulo e Rio de Janeiro a Belém, entre outros destinos. Especialistas em logística agroindustrial e fretes rodoviários.
+            A L-Prosp tem sede em Fraiburgo, SC, e leva segurança e pontualidade para o transporte
+            de cargas em todo o Brasil — de São Paulo e Rio de Janeiro a Belém, entre outros
+            destinos. Especialistas em logística agroindustrial e fretes rodoviários.
           </p>
           <div className="mt-8 flex flex-wrap gap-4">
-            <Button
-              size="lg"
-              asChild
-              className="bg-brand-blue hover:bg-brand-blue/90 text-white"
-            >
+            <Button size="lg" asChild className="bg-brand-blue hover:bg-brand-blue/90 text-white">
               <a
                 href="https://wa.me/5549932463681?text=Ol%C3%A1%2C%20gostaria%20de%20um%20or%C3%A7amento%20de%20frete%20com%20a%20L-Prosp"
                 target="_blank"

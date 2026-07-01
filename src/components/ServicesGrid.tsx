@@ -14,37 +14,43 @@ const services = [
   {
     icon: Truck,
     title: "Fretes Rodoviários",
-    description: "Transporte de cargas gerais e dedicadas com cobertura em todo o Brasil, partindo de Fraiburgo, SC. Rastreamento e compromisso com prazos.",
+    description:
+      "Transporte de cargas gerais e dedicadas com cobertura em todo o Brasil, partindo de Fraiburgo, SC. Rastreamento e compromisso com prazos.",
     color: "bg-brand-blue/10 text-brand-blue",
   },
   {
     icon: Sprout,
     title: "Logística Agroindustrial",
-    description: "Soluções especializadas para grãos, insumos, produtos agrícolas e industrializados, conectando o agronegócio catarinense ao restante do Brasil.",
+    description:
+      "Soluções especializadas para grãos, insumos, produtos agrícolas e industrializados, conectando o agronegócio catarinense ao restante do Brasil.",
     color: "bg-brand-green/10 text-brand-green",
   },
   {
     icon: Package,
     title: "Cargas Fracionadas",
-    description: "Consolidação e distribuição de cargas fracionadas com eficiência e redução de custos para sua operação.",
+    description:
+      "Consolidação e distribuição de cargas fracionadas com eficiência e redução de custos para sua operação.",
     color: "bg-brand-red/10 text-brand-red",
   },
   {
     icon: MapPin,
     title: "Distribuição Regional",
-    description: "Rede de distribuição que conecta indústrias, cooperativas e centros comerciais em todo o Brasil, partindo de Santa Catarina.",
+    description:
+      "Rede de distribuição que conecta indústrias, cooperativas e centros comerciais em todo o Brasil, partindo de Santa Catarina.",
     color: "bg-brand-navy/10 text-brand-navy",
   },
   {
     icon: Warehouse,
     title: "Armazenagem e Triagem",
-    description: "Apoio logístico com pontos de armazenagem, triagem e cross-docking para agilizar sua cadeia de suprimentos.",
+    description:
+      "Apoio logístico com pontos de armazenagem, triagem e cross-docking para agilizar sua cadeia de suprimentos.",
     color: "bg-brand-blue/10 text-brand-blue",
   },
   {
     icon: ClipboardCheck,
     title: "Gestão de Documentação",
-    description: "Cuidamos de toda a documentação do transporte, garantindo conformidade e tranquilidade na sua operação.",
+    description:
+      "Cuidamos de toda a documentação do transporte, garantindo conformidade e tranquilidade na sua operação.",
     color: "bg-brand-green/10 text-brand-green",
   },
 ];
@@ -61,7 +67,8 @@ export function ServicesGrid() {
             Transporte e logística sob medida para o seu negócio
           </h2>
           <p className="mt-4 text-muted-foreground">
-            Da lavoura à indústria, a L-Prosp conecta pessoas, produtos e oportunidades em todo o Brasil.
+            Da lavoura à indústria, a L-Prosp conecta pessoas, produtos e oportunidades em todo o
+            Brasil.
           </p>
         </div>
         <div className="mt-14 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
@@ -71,7 +78,9 @@ export function ServicesGrid() {
               className="group border-border/60 bg-card transition-all hover:-translate-y-1 hover:border-primary/30 hover:shadow-lg"
             >
               <CardHeader>
-                <div className={`mb-4 inline-flex h-12 w-12 items-center justify-center rounded-xl ${service.color}`}>
+                <div
+                  className={`mb-4 inline-flex h-12 w-12 items-center justify-center rounded-xl ${service.color}`}
+                >
                   <service.icon className="h-6 w-6" />
                 </div>
                 <CardTitle className="text-xl">{service.title}</CardTitle>

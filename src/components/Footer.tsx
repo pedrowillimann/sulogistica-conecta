@@ -23,7 +23,8 @@ export function Footer() {
               height={56}
             />
             <p className="text-sm text-white/70">
-              Soluções que prosperam. Transporte rodoviário e logística agroindustrial para todo o Brasil.
+              Soluções que prosperam. Transporte rodoviário e logística agroindustrial para todo o
+              Brasil.
             </p>
           </div>
           <div>
@@ -56,7 +57,9 @@ export function Footer() {
               <li>
                 <span className="flex items-start gap-2 text-sm text-white/70">
                   <MapPin className="mt-0.5 h-4 w-4 shrink-0" />
-                  SC-452, KM 39 - LIBERATA<br />Fraiburgo - SC, 89580-000
+                  SC-452, KM 39 - LIBERATA
+                  <br />
+                  Fraiburgo - SC, 89580-000
                 </span>
               </li>
             </ul>
@@ -86,7 +89,10 @@ export function Footer() {
           </div>
         </div>
         <div className="mt-12 border-t border-white/10 pt-8 text-center text-sm text-white/50">
-          <p>© {new Date().getFullYear()} L-Prosp Comércio e Transporte. Todos os direitos reservados.</p>
+          <p>
+            © {new Date().getFullYear()} L-Prosp Comércio e Transporte. Todos os direitos
+            reservados.
+          </p>
         </div>
       </div>
     </footer>

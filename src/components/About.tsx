@@ -21,10 +21,15 @@ export function About() {
               L-Prosp: soluções que prosperam
             </h2>
             <p className="mt-6 text-lg text-muted-foreground">
-              A L-Prosp Comércio e Transporte nasceu para conectar o campo à cidade, a indústria ao consumidor e Santa Catarina ao restante do Brasil. Com sede em Fraiburgo, atuamos com transporte rodoviário e logística agroindustrial para todo o território nacional — de São Paulo e Rio de Janeiro a Belém, entre outros destinos — sempre com foco em segurança, pontualidade e relacionamento de confiança.
+              A L-Prosp Comércio e Transporte nasceu para conectar o campo à cidade, a indústria ao
+              consumidor e Santa Catarina ao restante do Brasil. Com sede em Fraiburgo, atuamos com
+              transporte rodoviário e logística agroindustrial para todo o território nacional — de
+              São Paulo e Rio de Janeiro a Belém, entre outros destinos — sempre com foco em
+              segurança, pontualidade e relacionamento de confiança.
             </p>
             <p className="mt-4 text-muted-foreground">
-              Nossa missão é fazer sua carga chegar ao destino certo, no tempo certo, com o cuidado que o seu negócio merece.
+              Nossa missão é fazer sua carga chegar ao destino certo, no tempo certo, com o cuidado
+              que o seu negócio merece.
             </p>
             <ul className="mt-8 space-y-4">
               {differentials.map((item) => (
@@ -42,13 +47,15 @@ export function About() {
                 <div className="rounded-xl bg-brand-blue/10 p-6">
                   <h3 className="text-xl font-bold text-foreground">Nossa visão</h3>
                   <p className="mt-2 text-muted-foreground">
-                    Ser referência em transporte rodoviário no Brasil, reconhecida pela confiabilidade, agilidade e proximidade com o cliente.
+                    Ser referência em transporte rodoviário no Brasil, reconhecida pela
+                    confiabilidade, agilidade e proximidade com o cliente.
                   </p>
                 </div>
                 <div className="rounded-xl bg-brand-red/10 p-6">
                   <h3 className="text-xl font-bold text-foreground">Nossos valores</h3>
                   <p className="mt-2 text-muted-foreground">
-                    Compromisso, segurança, respeito e prosperação compartilhada com nossos clientes, colaboradores e parceiros.
+                    Compromisso, segurança, respeito e prosperação compartilhada com nossos
+                    clientes, colaboradores e parceiros.
                   </p>
                 </div>
               </div>

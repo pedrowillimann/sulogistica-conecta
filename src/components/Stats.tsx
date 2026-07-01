@@ -18,12 +18,8 @@ export function Stats() {
               className="border-white/20 bg-white/10 text-center text-primary-foreground backdrop-blur-sm"
             >
               <CardContent className="pt-6">
-                <div className="text-4xl font-bold tracking-tight md:text-5xl">
-                  {stat.value}
-                </div>
-                <p className="mt-2 text-sm font-medium text-primary-foreground/90">
-                  {stat.label}
-                </p>
+                <div className="text-4xl font-bold tracking-tight md:text-5xl">{stat.value}</div>
+                <p className="mt-2 text-sm font-medium text-primary-foreground/90">{stat.label}</p>
               </CardContent>
             </Card>
           ))}
