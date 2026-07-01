@@ -1,5 +1,5 @@
 import { Link } from "@tanstack/react-router";
-import { Phone, MapPin, Instagram, Facebook, Linkedin } from "lucide-react";
+import { Phone, MapPin, Instagram, Facebook } from "lucide-react";
 import logoAsset from "@/assets/logo.jpg.asset.json";
 
 const navLinks = [
@@ -65,25 +65,22 @@ export function Footer() {
             <h4 className="mb-4 font-semibold">Siga a L-Prosp</h4>
             <div className="flex gap-3">
               <a
-                href="#"
+                href="https://www.instagram.com/lprosp/"
                 className="inline-flex h-10 w-10 items-center justify-center rounded-full bg-white/10 text-white transition-colors hover:bg-brand-blue"
                 aria-label="Instagram"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 <Instagram className="h-5 w-5" />
               </a>
               <a
-                href="#"
+                href="https://www.facebook.com/Lprosp/"
                 className="inline-flex h-10 w-10 items-center justify-center rounded-full bg-white/10 text-white transition-colors hover:bg-brand-blue"
                 aria-label="Facebook"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 <Facebook className="h-5 w-5" />
-              </a>
-              <a
-                href="#"
-                className="inline-flex h-10 w-10 items-center justify-center rounded-full bg-white/10 text-white transition-colors hover:bg-brand-blue"
-                aria-label="LinkedIn"
-              >
-                <Linkedin className="h-5 w-5" />
               </a>
             </div>
           </div>

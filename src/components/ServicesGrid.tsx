@@ -85,7 +85,11 @@ export function ServicesGrid() {
                   className="p-0 text-primary hover:bg-transparent hover:text-primary/80"
                   asChild
                 >
-                  <a href="https://wa.me/5549932463681?text=Ol%C3%A1%2C%20tenho%20interesse%20em%20" target="_blank" rel="noopener noreferrer">
+                  <a
+                    href={`https://wa.me/5549932463681?text=${encodeURIComponent(`Olá, tenho interesse em ${service.title}`)}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     Solicitar este serviço
                     <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
                   </a>
