@@ -15,7 +15,7 @@ export function Stats() {
           {stats.map((stat) => (
             <Card
               key={stat.label}
-              className="border-white/20 bg-white/10 text-center backdrop-blur-sm"
+              className="border-white/20 bg-white/10 text-center text-primary-foreground backdrop-blur-sm"
             >
               <CardContent className="pt-6">
                 <div className="text-4xl font-bold tracking-tight md:text-5xl">
